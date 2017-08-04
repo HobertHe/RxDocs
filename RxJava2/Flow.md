@@ -1,8 +1,9 @@
 # Flowable
 
-# 间接
+# 简介
 Flowable是RxJava2.x中新增的类，专门用于应对背压（Backpressure）问题，但这并不是RxJava2.x中新引入的概念。所谓背压，即生产者的速度大于消费者的速度带来的问题，比如在Android中常见的点击事件，点击过快则会造成点击两次的效果。 
 我们知道，在RxJava1.x中背压控制是由Observable完成的，使用如下：
+
 ```
  Observable.range(1,10000)
             .onBackpressureDrop()
