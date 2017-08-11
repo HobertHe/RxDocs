@@ -1,6 +1,6 @@
 # ReactiveX/RxJava文档中文版
 
-**项目地址：<https://github.com/mcxiaoke/RxDocs>，欢迎Star和帮忙改进。**
+**项目原地址：<https://github.com/mcxiaoke/RxDocs>，欢迎Star和帮忙改进。**
 
 有任何意见或建议，到这里提出 [Create New Issue](https://github.com/mcxiaoke/RxDocs/issues/new)
 
@@ -23,6 +23,9 @@
 
 ## 目录
 
+* [RxJava2.x](https://github.com/jiang111/RxDocs/blob/master/RxJava2/What-different-in-2.md)  - RxJava2.x与1.x的区别
+  *[Flowable](https://github.com/jiang111/RxDocs/blob/master/RxJava2/Flow.md)  - 专门处理背压的类
+  *[其他](https://github.com/jiang111/RxDocs/blob/master/RxJava2/other.md)  -  2.x其他特别的类
 * [ReactiveX](Intro.md) - 什么是Rx，Rx的理念和优势
 * [Observables](Observables.md) - 简要介绍Observable的观察者模型
 * [Single](Single.md) - 一种特殊的只发射单个值的Observable
